@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Healther</string>
+    <string name="onboard1_title"> Discover Top Doctors </string>
+    <string name="onboard2_title">Ask a Doctor Online</string>
+    <string name="onboard3_title">Get Expert Advice</string>
+    <string name="skip">Skip Tour</string>
+    <string name="onboard1_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lacinia libero ut metus convallis tempor. Vestibulum consequat, tortor mattis consequat</string>
+    <string name="onboard2_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lacinia libero ut metus convallis tempor. Vestibulum consequat, tortor mattis consequat</string>
+    <string name="onboard3_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lacinia libero ut metus convallis tempor. Vestibulum consequat, tortor mattis consequat</string>
+
+</resources>
