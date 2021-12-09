@@ -12,4 +12,9 @@
     <string name="button_login">Login</string>
     <string name="signup_title">Hello Beautiful \n Sign Up</string>
     <string name="login_title">Welcome Back \n Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="login_hint">Forgot Password?</string>
+    <string name="login_bottom_link">Don’t have an account? Sign Up</string>
+    <string name="oshibka">OSHIBRF</string>
 </resources>
