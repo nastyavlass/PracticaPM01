@@ -7,5 +7,9 @@
     <string name="onboard1_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lacinia libero ut metus convallis tempor. Vestibulum consequat, tortor mattis consequat</string>
     <string name="onboard2_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lacinia libero ut metus convallis tempor. Vestibulum consequat, tortor mattis consequat</string>
     <string name="onboard3_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lacinia libero ut metus convallis tempor. Vestibulum consequat, tortor mattis consequat</string>
-
+    <string name="splash_title">Welcome to \n Self Care</string>
+    <string name="button_signup">Sign Up</string>
+    <string name="button_login">Login</string>
+    <string name="signup_title">Hello Beautiful \n Sign Up</string>
+    <string name="login_title">Welcome Back \n Login</string>
 </resources>
