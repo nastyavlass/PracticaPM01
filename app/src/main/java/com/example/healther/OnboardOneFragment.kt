@@ -1,5 +1,6 @@
 package com.example.healther
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -12,9 +13,13 @@ class OnboardOneFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?
+        savedInstanceState: Bundle?,
     ): View? {
         binding = FragmentOnboardOneBinding.inflate(inflater, container, false)
+        binding.textSkipOnboard1.setOnClickListener {
+            val intentSplash = Intent(context, SplashActivity::class.java)
+            startActivity(intentSplash)
+        }
         return binding.root
     }
 }
