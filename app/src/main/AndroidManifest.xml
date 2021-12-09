@@ -10,11 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Healther">
         <activity
+            android:name=".SignUpActivity"
+            android:exported="true" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity
             android:name=".SplashActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".OnboardActivity"
             android:exported="true">
