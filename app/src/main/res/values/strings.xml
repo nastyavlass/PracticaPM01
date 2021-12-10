@@ -14,7 +14,15 @@
     <string name="login_title">Welcome Back \n Login</string>
     <string name="hint_email">Email</string>
     <string name="hint_password">Password</string>
+    <string name="hint_name">Full Name</string>
     <string name="login_hint">Forgot Password?</string>
     <string name="login_bottom_link">Don’t have an account? Sign Up</string>
-    <string name="oshibka">OSHIBRF</string>
+    <string name="signup_bottom_link">Already have an account? Login</string>
+    <string name="error_email">Please enter a correct email</string>
+    <string name="error_password">Please enter a correct password</string>
+    <string name="error_name">Please enter a correct name</string>
+    <string name="empty_email">Please enter your email address</string>
+    <string name="empty_password">Please enter your password</string>
+    <string name="empty_name">Please enter your name</string>
+    <string name="content_description">Picture</string>
 </resources>

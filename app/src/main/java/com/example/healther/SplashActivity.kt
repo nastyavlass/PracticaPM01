@@ -15,5 +15,9 @@ class SplashActivity : AppCompatActivity() {
             val intentLogin = Intent(this, LoginActivity::class.java)
             startActivity(intentLogin)
         }
+        binding.buttonSplashSignup.setOnClickListener {
+            val intentSignUp = Intent(this, SignUpActivity::class.java)
+            startActivity(intentSignUp)
+        }
     }
 }

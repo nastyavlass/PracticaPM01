@@ -11,7 +11,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.buttonSplashLogin.setOnClickListener {
+        binding.buttonLogInLogin.setOnClickListener {
             val email = binding.editTextLoginEmail.text.toString()
             val password = binding.editTextLoginPassword.text.toString()
             val valid = Validator(this)
