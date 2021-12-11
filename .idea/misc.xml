@@ -6,14 +6,21 @@
         <entry key="..\:/Users/Admin/Healther/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
         <entry key="..\:/Users/Admin/Healther/app/src/main/res/drawable/button.xml" value="0.2703125" />
         <entry key="..\:/Users/Admin/Healther/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/activity_login.xml" value="0.4" />
         <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/activity_onboard.xml" value="0.1" />
         <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/fragment_home_analysis.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/fragment_home_menu.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/fragment_home_notify.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/fragment_home_setting.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/fragment_onboard_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/fragment_onboard_one.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/fragment_onboard_three.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/fragment_onboard_two.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/Healther/app/src/main/res/layout/fragment_profile_home.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Admin/Healther/app/src/main/res/menu/bottom_navigation_home.xml" value="0.25052083333333336" />
       </map>
     </option>
   </component>

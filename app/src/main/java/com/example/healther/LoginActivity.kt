@@ -20,9 +20,8 @@ class LoginActivity : AppCompatActivity() {
             if (binding.inputLayoutLoginEmail.error.isNullOrBlank() &&
                 binding.inputLayoutLoginPassword.error.isNullOrBlank()
             ) {
-//                val intent = Intent(this, HomeActivity::class.java)
-//                intent.putExtra("Email", email)
-//                startActivity(intent)
+                val intentHome = Intent(this, HomeActivity::class.java)
+                startActivity(intentHome)
             }
         }
         binding.textLoginBottomLink.setOnClickListener {
