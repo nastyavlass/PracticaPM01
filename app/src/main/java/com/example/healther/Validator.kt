@@ -5,17 +5,28 @@ import android.content.Context
 class Validator(private val context: Context) {
 
     fun validatorEmail(email: String): String? {
-        if (!email.isEmpty() && android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches())
-            return null
+        return if (email.isNotEmpty() && android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches())
+            null
+        else if (email.isEmpty())
+            context.getString(R.string.empty_email)
         else
-            return context.getString(R.string.oshibka)
+            context.getString(R.string.error_email)
 
     }
     fun validatorPassword(password: String): String? {
-        if (!password.isEmpty() && password.length > 10)
-            return null
+        return if (password.isNotEmpty() && password.length > 10)
+            null
+        else if(password.isEmpty())
+            context.getString(R.string.empty_password)
         else
-            return context.getString(R.string.oshibka)
-
+            context.getString(R.string.error_password)
+    }
+    fun validatorName(name: String): String? {
+        return if(name.isNotEmpty() && name.length > 6)
+            null
+        else if(name.isEmpty())
+            context.getString(R.string.empty_name)
+        else
+            context.getString(R.string.error_name)
     }
 }

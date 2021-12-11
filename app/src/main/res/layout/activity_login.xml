@@ -27,7 +27,9 @@
             android:layout_height="268dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:background="@drawable/bg_login" />
+            android:background="@drawable/bg_login"
+            android:contentDescription="@string/content_description"
+            tools:ignore="ImageContrastCheck" />
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/inputLayoutLoginEmail"
             android:layout_width="match_parent"
@@ -51,8 +53,9 @@
                 android:minHeight="48dp"
                 android:paddingStart="33dp"
                 android:paddingEnd="33dp"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black" />
+                android:textColor="@color/hint"
+                android:textColorHint="@color/hint"
+                tools:ignore="TextContrastCheck" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -74,14 +77,16 @@
                 android:id="@+id/editTextLoginPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"
                 android:hint="@string/hint_password"
+                android:inputType="textPassword"
                 android:minHeight="48dp"
                 android:paddingStart="33dp"
                 android:paddingEnd="33dp"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black" />
+                android:textColor="@color/hint"
+                android:textColorHint="@color/hint"
+                tools:ignore="TextContrastCheck" />
         </com.google.android.material.textfield.TextInputLayout>
+
         <TextView
             android:id="@+id/textLoginHint"
             android:layout_width="wrap_content"
@@ -89,9 +94,10 @@
             android:text="@string/login_hint"
             android:textColor="@color/dark_purple"
             android:textSize="15sp"
-            android:layout_marginLeft="250dp"/>
+            android:layout_marginStart="250dp"/>
+
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/buttonSplashLogin"
+            android:id="@+id/buttonLogInLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -101,6 +107,7 @@
             android:text="@string/button_login"
             android:backgroundTint="@color/dark_purple"
             android:padding="15dp"/>
+
         <TextView
             android:id="@+id/textLoginBottomLink"
             android:layout_width="wrap_content"
@@ -109,6 +116,7 @@
             android:textColor="@color/dark_purple"
             android:layout_gravity="center"
             android:text="@string/login_bottom_link"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

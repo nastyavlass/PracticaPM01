@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,11 +23,14 @@
             android:layout_marginStart="100dp"/>
 
         <ImageView
+            android:id="@+id/loginSplash"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_login"
             android:layout_marginTop="30dp"
-            android:id="@+id/loginSplash"/>
+            android:background="@drawable/bg_login"
+            android:contentDescription="@string/content_description"
+            tools:ignore="ImageContrastCheck" />
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonSplashSignup"
             android:layout_width="match_parent"
@@ -37,6 +41,7 @@
             android:text="@string/button_signup"
             android:backgroundTint="@color/dark_purple"
             android:padding="15dp"/>
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonSplashLogin"
             android:layout_width="match_parent"
@@ -50,13 +55,11 @@
             app:strokeColor="@color/dark_purple"
             app:strokeWidth="1dp"
             android:padding="15dp"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="30dp"/>
     </LinearLayout>
-
-
-
 
 </androidx.core.widget.NestedScrollView>
