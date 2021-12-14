@@ -22,9 +22,9 @@ class SignUpActivity : AppCompatActivity() {
                 binding.inputLayoutSignUpEmail.error.isNullOrBlank() &&
                 binding.inputLayoutSignUpPassword.error.isNullOrBlank())
                 {
-//                val intent = Intent(this, HomeActivity::class.java)
-//                intent.putExtra("Email", email)
-//                startActivity(intent)
+                val intentHome = Intent(this, HomeActivity::class.java)
+                    intentHome.putExtra("Email", email)
+                startActivity(intentHome)
                 }
         }
         binding.textSignUpBottomLink.setOnClickListener {
