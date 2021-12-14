@@ -22,6 +22,18 @@ class MedicalHistoryActivity : AppCompatActivity() {
                 text = "poseshenie 2"
             ),
         )
-        binding.recyclerViewMedical.adapter = MedicalHistoriesAdapter(medHists)
+        val adapter = MedicalHistoriesAdapter()
+        binding.recyclerViewMedical.adapter = adapter
+        adapter.submitList(medHists)
+
+        binding.buttonAdd.setOnClickListener {
+            adapter.addItem(
+                MedicalHistory(
+                    dataDay = 8,
+                    dataMonth = "June",
+                    text = "poseshenie 3"
+                )
+            )
+        }
     }
 }

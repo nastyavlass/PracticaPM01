@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageDietMenuBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_back"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageDietMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_menu_diet"
+                android:layout_marginTop="60dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/bg_menu_diet"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageDietMenu" />
+
+            <ImageButton
+                android:id="@+id/imageButtonBuckwheat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_diet_buckwheat"
+                android:layout_marginTop="40dp"
+                android:background="@color/purple"
+                app:layout_constraintEnd_toEndOf="@+id/imageDietMenu"
+                app:layout_constraintStart_toStartOf="@+id/imageDietMenu"
+                app:layout_constraintTop_toBottomOf="@+id/imageDietMenu" />
+
+            <TextView
+                android:id="@+id/textViewDietMenuBuckwheat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/diet_menu_buckwheat"
+                android:textColor="@color/dark_purple"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageButtonBuckwheat"
+                app:layout_constraintStart_toStartOf="@+id/imageButtonBuckwheat"
+                app:layout_constraintTop_toBottomOf="@+id/imageButtonBuckwheat" />
+
+            <ImageButton
+                android:id="@+id/imageButtonChocolate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/purple"
+                android:src="@drawable/img_diet_chocolate"
+                app:layout_constraintEnd_toEndOf="@+id/textViewDietMenuBuckwheat"
+                app:layout_constraintStart_toStartOf="@+id/textViewDietMenuBuckwheat"
+                app:layout_constraintTop_toBottomOf="@+id/textViewDietMenuBuckwheat" />
+
+            <TextView
+                android:id="@+id/textViewDietMenuChocolate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/diet_menu_chocolate"
+                android:textColor="@color/dark_purple"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageButtonChocolate"
+                app:layout_constraintStart_toStartOf="@+id/imageButtonChocolate"
+                app:layout_constraintTop_toBottomOf="@+id/imageButtonChocolate" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

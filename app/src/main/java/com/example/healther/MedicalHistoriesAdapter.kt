@@ -6,7 +6,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.healther.databinding.ItemMedicalHistoryBinding
 
 
-class MedicalHistoriesAdapter(private val items: List<MedicalHistory>) : RecyclerView.Adapter<MedicalHistoryViewHolder>(){
+class MedicalHistoriesAdapter() : RecyclerView.Adapter<MedicalHistoryViewHolder>(){
+    private val items = mutableListOf<MedicalHistory>()
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MedicalHistoryViewHolder {
         return MedicalHistoryViewHolder(ItemMedicalHistoryBinding.inflate(LayoutInflater.from(parent.context), parent, false))
     }
@@ -16,6 +17,17 @@ class MedicalHistoriesAdapter(private val items: List<MedicalHistory>) : Recycle
     }
 
     override fun getItemCount() = items.size
+
+    fun submitList(MedicalHistories: List<MedicalHistory>){
+        items.clear()
+        items.addAll(MedicalHistories)
+        notifyDataSetChanged()
+    }
+
+    fun addItem(medicalHistory: MedicalHistory){
+        items.add(medicalHistory)
+        notifyItemInserted(items.lastIndex)
+    }
 
 }
 
