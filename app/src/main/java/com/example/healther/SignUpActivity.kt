@@ -23,6 +23,7 @@ class SignUpActivity : AppCompatActivity() {
                 binding.inputLayoutSignUpPassword.error.isNullOrBlank())
                 {
                 val intentHome = Intent(this, HomeActivity::class.java)
+                    intentHome.putExtra("Email", email)
                 startActivity(intentHome)
                 }
         }

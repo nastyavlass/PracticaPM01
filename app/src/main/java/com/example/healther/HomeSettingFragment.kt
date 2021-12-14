@@ -17,4 +17,5 @@ class HomeSettingFragment : Fragment() {
         binding = FragmentHomeSettingBinding.inflate(inflater, container, false)
         return binding.root
     }
+
 }

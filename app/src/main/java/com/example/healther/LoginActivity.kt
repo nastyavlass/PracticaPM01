@@ -21,6 +21,7 @@ class LoginActivity : AppCompatActivity() {
                 binding.inputLayoutLoginPassword.error.isNullOrBlank()
             ) {
                 val intentHome = Intent(this, HomeActivity::class.java)
+                intentHome.putExtra("Email", email)
                 startActivity(intentHome)
             }
         }
