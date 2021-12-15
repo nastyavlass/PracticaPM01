@@ -22,7 +22,8 @@
                 android:layout_margin="20dp"
                 android:src="@drawable/ic_back"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/contentDescription"/>
 
             <ImageView
                 android:id="@+id/imageDietMenu"
@@ -32,7 +33,8 @@
                 android:layout_marginTop="60dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/contentDescription"/>
 
             <ImageView
                 android:layout_width="match_parent"
@@ -41,6 +43,7 @@
                 android:src="@drawable/bg_menu_diet"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
+                android:contentDescription="@string/contentDescription"
                 app:layout_constraintTop_toBottomOf="@+id/imageDietMenu" />
 
             <ImageButton
@@ -52,7 +55,8 @@
                 android:src="@drawable/img_diet_buckwheat"
                 app:layout_constraintEnd_toEndOf="@+id/imageDietMenu"
                 app:layout_constraintStart_toStartOf="@+id/imageDietMenu"
-                app:layout_constraintTop_toBottomOf="@+id/imageDietMenu" />
+                app:layout_constraintTop_toBottomOf="@+id/imageDietMenu"
+                android:contentDescription="@string/contentDescription"/>
 
             <TextView
                 android:id="@+id/textViewDietMenuBuckwheat"
@@ -75,7 +79,7 @@
                 android:background="@color/purple"
                 android:src="@drawable/img_diet_chocolate"
                 app:layout_constraintEnd_toEndOf="@+id/textViewDietMenuBuckwheat"
-                app:layout_constraintHorizontal_bias="0.506"
+                android:contentDescription="@string/contentDescription"
                 app:layout_constraintStart_toStartOf="@+id/textViewDietMenuBuckwheat"
                 app:layout_constraintTop_toBottomOf="@+id/textViewDietMenuBuckwheat" />
 

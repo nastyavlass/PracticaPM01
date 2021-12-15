@@ -27,7 +27,6 @@
     <string name="empty_email">Please enter your email address</string>
     <string name="empty_password">Please enter your password</string>
     <string name="empty_name">Please enter your name</string>
-    <string name="content_description">Picture</string>
     <string name="home_title">Hi %1$s!</string>
     <string name="diet_menu_buckwheat">Buckwheat diet</string>
     <string name="diet_menu_chocolate">Chocolate diet</string>
@@ -63,4 +62,5 @@
         which has a diuretic effect and removes excess fluid along with toxins,
         slags and heavy metal salts. \n The result of using the menu of one of the chocolate diet options is noticeable after 2-3 days.
         In this way, you can lose 1-5 kg of excess weight.</string>
+    <string name="contentDescription">Picture</string>
 </resources>

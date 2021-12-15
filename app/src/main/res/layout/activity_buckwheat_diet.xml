@@ -54,7 +54,8 @@
                 android:layout_width="400dp"
                 android:layout_height="300dp"
                 android:layout_gravity="center"
-                android:src="@drawable/img_diet_buckwheat_pravila"/>
+                android:src="@drawable/img_diet_buckwheat_pravila"
+                android:contentDescription="@string/contentDescription"/>
             <TextView
                 android:id="@+id/textViewDietBuckPart2"
                 android:layout_width="wrap_content"
