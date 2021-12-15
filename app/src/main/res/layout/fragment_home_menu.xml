@@ -44,7 +44,7 @@
         </com.google.android.material.appbar.CollapsingToolbarLayout>
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="10dp"
+            android:layout_height="0dp"
             android:background="@android:color/transparent"
             android:id="@+id/tabLayoutHome"/>
     </com.google.android.material.appbar.AppBarLayout>

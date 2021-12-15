@@ -45,11 +45,11 @@
 
             <ImageButton
                 android:id="@+id/imageButtonBuckwheat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/img_diet_buckwheat"
+                android:layout_width="301dp"
+                android:layout_height="166dp"
                 android:layout_marginTop="40dp"
                 android:background="@color/purple"
+                android:src="@drawable/img_diet_buckwheat"
                 app:layout_constraintEnd_toEndOf="@+id/imageDietMenu"
                 app:layout_constraintStart_toStartOf="@+id/imageDietMenu"
                 app:layout_constraintTop_toBottomOf="@+id/imageDietMenu" />
@@ -69,12 +69,13 @@
 
             <ImageButton
                 android:id="@+id/imageButtonChocolate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_width="301dp"
+                android:layout_height="166dp"
+                android:layout_marginTop="16dp"
                 android:background="@color/purple"
                 android:src="@drawable/img_diet_chocolate"
                 app:layout_constraintEnd_toEndOf="@+id/textViewDietMenuBuckwheat"
+                app:layout_constraintHorizontal_bias="0.506"
                 app:layout_constraintStart_toStartOf="@+id/textViewDietMenuBuckwheat"
                 app:layout_constraintTop_toBottomOf="@+id/textViewDietMenuBuckwheat" />
 

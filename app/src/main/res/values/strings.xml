@@ -4,9 +4,12 @@
     <string name="onboard2_title">Ask a Doctor Online</string>
     <string name="onboard3_title">Get Expert Advice</string>
     <string name="skip">Skip Tour</string>
-    <string name="onboard1_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lacinia libero ut metus convallis tempor. Vestibulum consequat, tortor mattis consequat</string>
-    <string name="onboard2_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lacinia libero ut metus convallis tempor. Vestibulum consequat, tortor mattis consequat</string>
-    <string name="onboard3_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lacinia libero ut metus convallis tempor. Vestibulum consequat, tortor mattis consequat</string>
+    <string name="onboard1_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Phasellus lacinia libero ut metus convallis tempor. Vestibulum consequat, tortor mattis consequat</string>
+    <string name="onboard2_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Phasellus lacinia libero ut metus convallis tempor. Vestibulum consequat, tortor mattis consequat</string>
+    <string name="onboard3_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Phasellus lacinia libero ut metus convallis tempor. Vestibulum consequat, tortor mattis consequat</string>
     <string name="splash_title">Welcome to \n Self Care</string>
     <string name="button_signup">Sign Up</string>
     <string name="button_login">Login</string>
@@ -28,34 +31,36 @@
     <string name="home_title">Hi %1$s!</string>
     <string name="diet_menu_buckwheat">Buckwheat diet</string>
     <string name="diet_menu_chocolate">Chocolate diet</string>
-    <string name="diet_buckwheat_part1">\tБлагодаря полезным свойствам гречки оказывается комплексное благотворное воздействие
-        на многие системы, органы, а также протекающие в них процессы, благодаря чему:\n
-        \t🍴повышается иммунитет;\n
-        \t🍴укрепляются стенки сосудов;\n
-        \t🍴активизируется кровообращение;\n
-        \t🍴нормализуется работа печени, органов ЖКТ;\n
-        \t🍴уменьшается количество вредного холестерина;\n
-        \t🍴мягко выводятся шлаки, токсические вещества, продукты распада;\n
-        \t🍴снимается отечность;\n
-        \t🍴устраняется изжога;\n
-        \t🍴улучшается состояние кожных покровов;\n
-        \t🍴повышается устойчивость к стрессу.
+    <string name="diet_buckwheat_part1">\tThanks to the beneficial properties of buckwheat, a complex beneficial effect
+    is exerted on many systems, organs, as well as processes occurring in them, thanks to which:\n
+     </string>
+    <string name="diet_buckwheat_list">
+        \t 🍘immunity increases;\n
+        \t 🍘the walls of the vessels are strengthened;\n
+        \t 🍘blood circulation is activated; \n
+        \t 🍘the work of the liver, gastrointestinal organs is normalized;\n
+        \t 🍘the amount of harmful cholesterol is reduced;\n
+        \t 🍘slags, toxic substances, decomposition products are gently removed;\n
+        \t 🍘swelling is removed;\n
+        \t 🍘heartburn is eliminated;\n
+        \t 🍘improves the condition of the skin; \n
+        \t 🍘increases resistance to stress.
+   </string>
+    <string name="diet_buckwheat_part2">Buckwheat diet allows you to lose weight without a strong feeling of hunger,
+            while in most cases it has no contraindications, if you know how to sit properly on such a technique.
+            Disadvantages, limitations or side effects are peculiar only to the strictest mono diet.</string>
+    <string name="diet_chocolate_part1">\tA chocolate-based diet really helps to lose weight.
+            The product is a strong stimulant and has the following effect on a person: \n
+        \t🍪 improves mood; \n
+        \t🍪 invigorates; \n
+        \t🍪 fills with energy; \n
+        \t🍪 reduces the need for sleep;\n
+        \t🍪 reduces appetite; \n
+        \t🍪 suppresses the feeling of hunger.
     </string>
-    <string name="diet_buckwheat_part2">Гречневая диета позволяет худеть без сильного чувства голода,
-        при этом в большинстве случаев не имеет противопоказаний, если знать, как правильно сидеть на такой методике.
-        Недостатки, ограничения или побочные явления свойственны только самой строгой монодиете.</string>
-    <string name="diet_chocolate_part1">\tДиета на основе шоколада действительно помогает сбросить лишний вес.
-        Продукт является сильным стимулятором и оказывает следующее влияние на человека: \n
-        \t🍪 улучшает настроение; \n
-        \t🍪 бодрит; \n
-        \t🍪 наполняет энергией; \n
-        \t🍪 уменьшает потребность во сне; \n
-        \t🍪 снижает аппетит; \n
-        \t🍪 подавляет чувство голода.
-    </string>
-    <string name="diet_chocolate_part2">\tЛакомство заставляет организм активно использовать внутренние резервы,
-        из-за чего начинает сжигаться жир. В натуральном шоколаде содержится кофеин,
-        который оказывает мочегонный эффект и выводит лишнюю жидкость вместе с токсинами,
-        шлаками и солями тяжелых металлов. \nРезультат использования меню одного из вариантов шоколадной диеты заметен уже через 2-3 дня.
-        Таким образом можно сбросить от 1-5 кг лишнего веса.</string>
+    <string name="diet_chocolate_part2">\t The delicacy forces the body to actively use internal reserves,
+        which is why fat begins to burn. Natural chocolate contains caffeine,
+        which has a diuretic effect and removes excess fluid along with toxins,
+        slags and heavy metal salts. \n The result of using the menu of one of the chocolate diet options is noticeable after 2-3 days.
+        In this way, you can lose 1-5 kg of excess weight.</string>
 </resources>
