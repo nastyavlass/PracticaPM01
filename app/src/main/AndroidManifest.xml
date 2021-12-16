@@ -9,6 +9,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Healther">
         <activity
+            android:name=".MedHistActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BuckwheatDietActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChocolateDietActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DietActivity"
+            android:exported="true" />
+        <activity
             android:name=".MedicalHistoryActivity"
             android:exported="true" />
         <activity

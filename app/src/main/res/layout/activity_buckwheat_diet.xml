@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_diet_buckwheat"
+        android:alpha="0.4"/>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageDietBuckBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/textViewTitleDietBuck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/diet_menu_buckwheat"
+                android:textSize="40sp"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/textViewTitleDietPart1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/diet_buckwheat_part1"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:id="@+id/textViewDietBuckList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/diet_buckwheat_list"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/imageDietBuckRol"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_diet_buckwheat_pravila"
+                android:contentDescription="@string/contentDescription"/>
+            <TextView
+                android:id="@+id/textViewDietBuckPart2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/diet_buckwheat_part2"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout >

@@ -25,7 +25,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bg_onboard_three" />
+        app:srcCompat="@drawable/bg_onboard_three"
+        android:contentDescription="@string/contentDescription"/>
 
     <TextView
         android:id="@+id/textOnboard3"

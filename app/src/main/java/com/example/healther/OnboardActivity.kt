@@ -8,8 +8,7 @@ class OnboardActivity : AppCompatActivity() {
     lateinit var binding: ActivityOnboardBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_onboard)
         binding = ActivityOnboardBinding.inflate(layoutInflater)
-
+        setContentView(binding.root)
     }
 }

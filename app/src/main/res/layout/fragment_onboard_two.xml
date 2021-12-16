@@ -41,7 +41,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bg_onboard_two" />
+        app:srcCompat="@drawable/bg_onboard_two"
+        android:contentDescription="@string/contentDescription"/>
 
     <TextView
         android:id="@+id/textSkipOnboard2"
