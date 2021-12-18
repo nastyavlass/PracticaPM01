@@ -1,7 +1,6 @@
 package com.example.healther
 
 data class MedicalHistory(
-    val dataDay: Int,
-    val dataMonth: String,
+    val dataDay: String,
     val text: String
 )

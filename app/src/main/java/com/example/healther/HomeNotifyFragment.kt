@@ -9,12 +9,14 @@ import com.example.healther.databinding.FragmentHomeNotifyBinding
 
 class HomeNotifyFragment : Fragment() {
     lateinit var binding: FragmentHomeNotifyBinding
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentHomeNotifyBinding.inflate(inflater, container, false)
+
         return binding.root
     }
 }
