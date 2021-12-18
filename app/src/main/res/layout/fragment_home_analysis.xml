@@ -1,18 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ANALYSIS"
-        android:textColor="@color/purple"
-        android:textSize="50sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="horizontal"
+        app:layout_anchor="@+id/nestedScrollView"
+        app:layout_anchorGravity="center">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewTitleAnalysis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52dp"
+                android:text="@string/analysis_title"
+                android:textColor="@color/purple"
+                android:textSize="50sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewPart1Analysis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                android:text="@string/analysis_part1"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/textViewTitleAnalysis"
+                app:layout_constraintStart_toStartOf="@+id/textViewTitleAnalysis"
+                app:layout_constraintTop_toBottomOf="@+id/textViewTitleAnalysis" />
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="20dp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="@+id/textViewPart1Analysis"
+                app:layout_constraintStart_toStartOf="@+id/textViewPart1Analysis"
+                app:layout_constraintTop_toBottomOf="@+id/textViewPart1Analysis" />
+
+            <TextView
+                android:id="@+id/textViewPart2Analysis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52dp"
+                android:text="@string/analysis_part2"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                app:layout_constraintEnd_toEndOf="@+id/videoView"
+                app:layout_constraintStart_toStartOf="@+id/videoView"
+                app:layout_constraintTop_toBottomOf="@+id/videoView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
