@@ -66,7 +66,13 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="notify_title">💬 Reminder!</string>
-    <string name="notify_text"></string>
+    <string name="notify_text">\t Taking care of yourself means choosing yourself in your life, your desires and needs.
+        Learn to interact with yourself, study yourself, listen to yourself. After all, the ecology of any relationship begins with
+        the ecology of relationships with oneself. Taking care of yourself is about health, nutrition and physical activity.\n
+        Most of us seem to thoughtlessly believe that we really have such awareness, and we
+        only sometimes allow it to be obscured by various interventions — social pressure, attempts to strengthen our images,
+        feelings of guilt, etc. </string>
+    <string name="setting">Settings</string>
     <string name="analysis_title">Self-care\nschedule</string>
     <string name="analysis_part1">\tIf you follow a healthy lifestyle, try to do everything possible to pass on a useful habit to
         your children. From an early age, teach your child to do the right thing.\n
