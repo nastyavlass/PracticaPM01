@@ -65,10 +65,10 @@
     <string name="contentDescription">Picture</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="notify_reminder">Don\'t forget to record your health status!</string>
     <string name="notify_title">💬 Reminder!</string>
+    <string name="notify_text"></string>
     <string name="analysis_title">Self-care\nschedule</string>
-    <string name="analysis_part1">If you follow a healthy lifestyle, try to do everything possible to pass on a useful habit to
+    <string name="analysis_part1">\tIf you follow a healthy lifestyle, try to do everything possible to pass on a useful habit to
         your children. From an early age, teach your child to do the right thing.\n
         \t🧘From an early age, send your child to the sports section.\n
         \t🧘Go out into nature at least once a week.\n
@@ -77,7 +77,7 @@
         \t🧘Try not to accustom the child to fast food, sweets and products containing chemicals in the composition.\n
         \t🧘Since childhood, teach your baby the rules of personal hygiene.\n
         \t🧘Involve your child in home cleaning.</string>
-    <string name="analysis_part2">Healthy lifestyle should not cause discomfort, all actions should be a joy. Instill healthy habits gradually.
+    <string name="analysis_part2">\tHealthy lifestyle should not cause discomfort, all actions should be a joy. Instill healthy habits gradually.
         To begin with, get used to the new food, then start doing exercises in the morning, etc. Over time, you
         will begin to feel better and calmer, and you will be able to achieve goals that previously seemed unattainable.</string>
 </resources>

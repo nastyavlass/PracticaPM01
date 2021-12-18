@@ -1,9 +1,11 @@
 package com.example.healther
 
+import android.os.Build
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.healther.databinding.ItemMedicalHistoryBinding
+
 
 
 class MedicalHistoriesAdapter() : RecyclerView.Adapter<MedicalHistoryViewHolder>(){
@@ -33,8 +35,7 @@ class MedicalHistoriesAdapter() : RecyclerView.Adapter<MedicalHistoryViewHolder>
 
 class MedicalHistoryViewHolder(private val binding: ItemMedicalHistoryBinding) : RecyclerView.ViewHolder(binding.root) {
     fun bind(medicalHistory: MedicalHistory) = with(binding) {
-        textDataDay.text = medicalHistory.dataDay.toString()
-        textDataMonth.text = medicalHistory.dataMonth
+        textDataDay.text = medicalHistory.dataDay
         text.text = medicalHistory.text
         root.setOnClickListener{ }
     }
